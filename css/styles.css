@@ -40,6 +40,7 @@ main {
   flex-direction: column;
   padding: 3rem 0;
   max-width: 375px;
+  width: 85vw;
   margin: auto;
   overflow: hidden;
 }
@@ -62,6 +63,7 @@ p {
 }
 
 .image-container img {
+  display: block;
   max-width: 100%;
   max-height: 100%;
   width: 100%;
@@ -114,6 +116,27 @@ p {
 }
 
 /************************************ 
+-------------- Footer -------------
+************************************/
+.attribution {
+  max-width: 375px;
+  width: 85vw;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.attribution a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.attribution span {
+  display: block;
+}
+
+/************************************ 
 ----------- Media Queries -----------
 ************************************/
 
@@ -123,6 +146,7 @@ p {
     max-width: 1440px;
     padding: 5rem;
     flex: 1;
+    width: 100%;
   }
 
   .image-container,
@@ -160,18 +184,16 @@ p {
     width: 70%;
     justify-content: space-between;
   }
+
+  .attribution {
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  
+.attribution span {
+  display: inline;
 }
 
-/************************************ 
--------------- Footer -------------
-************************************/
-.attribution {
-  margin-bottom: 2rem;
-  font-size: 1.2rem;
-  text-align: center;
 }
 
-.attribution a {
-  color: var(--accent);
-  text-decoration: none;
-}
