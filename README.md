@@ -53,6 +53,6 @@ I also realised that it is not good to start coding the moment I begin the proje
 - [StackOverFlow](https://stackoverflow.com/questions/31458477/find-element-that-is-causing-the-showing-of-horizontal-scrollbar-in-google-chrom) - I had problems with overflowing content. This answer helped a lot. It says to add a outline to all the elements and see which element is causing the overflow. As outlines are drawn over the element unlike borders, they do not alter the positioning
 ## Author
 
-- Website - [Om Kakatkar](https://www.omkakatkar-portfolio.netlify.app)
+- Website - [Om Kakatkar](https://omkakatkar-portfolio.netlify.app/)
 - Frontend Mentor - [@OmKakatkar](https://www.frontendmentor.io/profile/OmKakatkar)
 - Twitter - [@omkakatkar](https://twitter.com/omkakatkar)
